@@ -1,0 +1,33 @@
+body { padding-top: 70px; }
+
+.load {
+  background: url(images/widgets/load.gif);
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron a {
+  height: 100vh;
+  text-decoration: none;
+  color: black;
+}
+
+.glyphicon {
+    display: block;
+    text-align: center;
+}
+
+#portfolio img {
+  margin: 3rem auto;
+}
+
+#selector {
+  margin-top: 3rem;
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  border-top: solid 5px;
+  border-bottom: solid 5px;
+}
