@@ -9,8 +9,7 @@ $(window).load(function() {
   })
 });
 
-
-
+// selector sidebar
 $(document).ready(function() {
     $('#show_graphic').click(function() {
             $("#cv").hide("fast");
