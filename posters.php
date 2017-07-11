@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php include 'header.php'; ?>
-</head>
-<body>
-    <img src="images/logoBlue.png" id="loader_img" class="loader">
-    <div id="main-content">
-    <div class="container">
-        <?php include 'navbar.php'; ?>
-        <?php include 'CV.php'; ?>
+<?php include 'layouts/project.php'; ?>
         <div class="row">
             <div class="offset-by-one ten columns">
                 <img src="images/nicholask/strange2.png">
@@ -26,9 +16,7 @@
                 <img src="images/nicholask/supersuper.png">
             </div>
             <div class="five columns">
-                <img style="max-height: 525px" src="images/groovenation.png">
+                <img style="max-height: 525px" src="images/nicholask/groovenation.png">
             </div>
         </div>
-    </div>
-    </div>
-<?php include 'footer.php'; ?>
+<?php include 'partials/footer.php'; ?>

@@ -39,9 +39,10 @@ Thumbs.db
 # Other #
 ######################
 exclude.txt
+.exclude.txt
 phpinfo.php
-@Design files/
-@Nicht Benutzt/
-@templates/
+@*
 images/
 downloads/
+.brackets.json
+anki.php

@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <?php include 'header.php'; ?>
-</head>
-<body>
-<img src="images/logoBlue.png" id="loader_img" class="loader">
-  <div id="main-content">
-  <?php include 'selector.php'; ?>
-  <div class="container">
-      <?php include 'navbar.php'; ?>
-      <?php include 'CV.php'; ?>
+<?php include "layouts/main.php"; ?>
       
       <div class="row">        
         <div class="offset-by-one five columns">
@@ -54,7 +43,4 @@
       
       </div>
       
-      </div>
-      
-  </div>
-<?php include 'footer.php'; ?>
+<?php include 'partials/footer.php'; ?>

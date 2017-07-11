@@ -1,5 +1,4 @@
-<?php echo
-'<meta charset="utf-8">
+<meta charset="utf-8">
 <title>Nicholas Kearney - Digital Portfolio</title>
 <meta name="description" content="">
 <meta name="author" content="Nicholas Kearney">
@@ -12,5 +11,4 @@
 <link rel="stylesheet" href="css/skeleton.min.css">
 <link rel="stylesheet" href="css/style.css">
 
-<link rel="icon" type="image/png" href="images/logoBlueTH.png">';
-?>
+<link rel="icon" type="image/png" href="images/logoBlueTH.png">;

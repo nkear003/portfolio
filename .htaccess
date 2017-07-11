@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^nicholaskearney\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.nicholaskearney\.com$
+RewriteRule ^portfolio\/$ "http\:\/\/nicholaskearney\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^nicholaskearney\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.nicholaskearney\.com$
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [L]

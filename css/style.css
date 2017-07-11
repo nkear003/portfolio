@@ -1,4 +1,4 @@
-body { padding-top: 70px; }
+/*body { padding-top: 70px; }*/
 
 .load {
   background: url(images/widgets/load.gif);
@@ -19,6 +19,10 @@ body { padding-top: 70px; }
     text-align: center;
 }
 
+img a:active {
+    background-color: none;
+}
+
 #portfolio img {
   margin: 3rem auto;
 }
@@ -28,6 +32,6 @@ body { padding-top: 70px; }
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-top: solid 5px;
-  border-bottom: solid 5px;
+/*  border-top: solid 5px;
+  border-bottom: solid 5px;*/
 }

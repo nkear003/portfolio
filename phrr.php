@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php include 'header.php'; ?>
-</head>
-<body>
-    <img src="images/logoBlue.png" id="loader_img" class="loader">
-    <div id="main-content">    
-    <div class="container">
-        <?php include 'navbar.php'; ?>
-        <?php include 'CV.php'; ?>
+<?php include 'layouts/project.php'; ?>
         <div class="row">
             <div class="offset-by-one ten columns">
                 <a href="http://poquosonhomerepair.com" target="_blank">
@@ -37,6 +27,4 @@
                 </a>
             </div>
         </div>
-    </div>
-    </div>
-<?php include 'footer.php'; ?>
+<?php include 'partials/footer.php'; ?>
