@@ -1,7 +1,7 @@
 <?php include "layouts/main.php"; ?>
       
       <div class="row">        
-        <div class="offset-by-one five columns">
+        <div class="offset-by-one five columns">          
           
           <a href="nicholask.php" class="graphicweb">
             <img src="images/nicholask/nkheader.png" alt="Nicholas K Music">
@@ -11,12 +11,16 @@
             <img src="images/gottwald/gottwald1.jpg" alt="Der Gottwald">
           </a>
           
-          <a href="ecsc.php" class="graphic">
+          <!--<a href="ecsc.php" class="graphic">
             <img src="images/ecsc/ecscTH.png" alt="ECSC">
-          </a>
+          </a>-->
           
           <a href="superwave.php" class="graphic">
             <img src="images/nicholask/superwave.png" alt="Superwave Music Collective">
+          </a>
+          
+          <a href="chapstick.php" class="graphic">
+            <img src="images/chapstick/chapstickFRONT.png" alt="Chapstick">
           </a>
           
           <a href="brochure.php" class="graphic">
@@ -27,16 +31,20 @@
         
         <div class="five columns">
           
+          <a href="edge.php" class="web">
+            <img src="images/edge/edgeFRONT.png" alt="Steyoyoke Edge">
+          </a>
+          
+          <a href="innersymphony.php" class="web">
+              <img src="images/innersymphony/innersymphonyFRONT.png" alt="Inner Symphony">
+          </a>
+          
           <a href="phrr.php" class="graphicweb">
             <img src="images/phrr/logo_header.png" alt="Poquoson Home Repair & Remodeling">
           </a>
 
           <a href="posters.php" class="graphic">
             <img src="images/nicholask/strange2.png" alt="Event Posters & Flyers">
-          </a>
-          
-          <a href="chapstick.php" class="graphic">
-            <img src="images/chapstick/marylnLarge.png" alt="Chapstick">
           </a>
       
         </div> <!--end second side-->
