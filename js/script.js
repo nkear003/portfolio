@@ -14,20 +14,20 @@ $(document).ready(function() {
     $('#show_graphic').click(function() {
             $("#cv").hide("fast");
             $(".web").hide("fast");
-            $(".graphic").show("fast");
+            $(".graphic").show("fast").css("display", "block");
             $(".graphicweb").show();
     });
     $('#show_web').click(function() {
-            $("#cv").hide("fast");
-            $(".graphic").hide("fast");
-            $(".web").show("fast");
-            $(".graphicweb").show();
+            $("#cv").hide("fast").css("display", "none");
+            $(".graphic").hide("fast").css("display", "none");
+            $(".web").show("fast").css("display", "block");
+            $(".graphicweb").show("fast").css("display", "block");
     });
     $('#show_all').click(function() {
             $("#cv").hide("fast");
-            $(".web").show("fast");
-            $(".graphic").show("fast");
-            $(".graphicweb").show("fast");
+            $(".web").show("fast").css("display", "block");
+            $(".graphic").show("fast").css("display", "block");
+            $(".graphicweb").show("fast").css("display", "block");
     });
     $('#show_about').click(function() {
             $("#CV").hide("fast");
