@@ -46,8 +46,11 @@ img .towers {
     max-height: 575px;
 }
 
+a img:hover
+
 img a:hover {
     background-color: transparent;
+/*    box-shadow: none !important;*/
 }
 
 .hrsmall {
