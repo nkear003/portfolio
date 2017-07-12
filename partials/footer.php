@@ -2,10 +2,6 @@
             <hr class="no-show">
             <div class="row">
                 <div class="offset-by-one ten columns" style="text-align:center">
-                    <a href="<?php echo "http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/'; ?>">
-                        Back to Home
-                    </a>
-                     | 
                     <a href="#" target="_top">Back to Top</a>
                 </div>
             </div>
