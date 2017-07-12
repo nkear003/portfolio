@@ -11,4 +11,4 @@
 <link rel="stylesheet" href="css/skeleton.min.css">
 <link rel="stylesheet" href="css/style.css">
 
-<link rel="icon" type="image/png" href="images/logoBlueTH.png">;
+<link rel="icon" type="image/png" href="images/logoBlueTH.png">
