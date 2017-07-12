@@ -35,3 +35,43 @@ img a:active {
 /*  border-top: solid 5px;
   border-bottom: solid 5px;*/
 }
+
+.no-show {
+    border-color: transparent;
+}
+
+img .towers {
+    max-height: 575px;
+}
+
+img a:hover {
+    background-color: transparent;
+}
+
+.hrsmall {
+    margin: 1rem auto;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+/*  content: open-quote;*/
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+a:hover {
+    background-color:#000;
+    color:#fff;
+    cursor: pointer;
+}
