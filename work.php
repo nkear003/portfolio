@@ -1,4 +1,4 @@
-<?php include "layouts/main.php"; ?>
+<?php include "layouts/home.php"; ?>
       
       <div class="row">        
         <div class="offset-by-one five columns">          
@@ -51,4 +51,4 @@
       
       </div>
       
-<?php include 'partials/footer.php'; ?>
+<?php include 'partials/home_footer.php'; ?>
