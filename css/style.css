@@ -4,12 +4,18 @@
   background: url(images/widgets/load.gif);
 }
 
+a:hover {
+    background-color:#000;
+    color:#fff;
+    cursor: pointer;
+}
+
 .jumbotron {
   background-color: transparent;
+  height: 100vh;
 }
 
 .jumbotron a {
-  height: 100vh;
   text-decoration: none;
   color: black;
 }
@@ -67,12 +73,6 @@ blockquote:before {
 
 blockquote p {
   display: inline;
-}
-
-a:hover {
-    background-color:#000;
-    color:#fff;
-    cursor: pointer;
 }
 
 .no-show {
