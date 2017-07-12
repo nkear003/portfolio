@@ -36,10 +36,6 @@ img a:active {
   border-bottom: solid 5px;*/
 }
 
-.no-show {
-    border-color: transparent;
-}
-
 img .towers {
     max-height: 575px;
 }
@@ -59,6 +55,7 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
   color: #ccc;
 /*  content: open-quote;*/
@@ -67,11 +64,17 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 blockquote p {
   display: inline;
 }
+
 a:hover {
     background-color:#000;
     color:#fff;
     cursor: pointer;
+}
+
+.no-show {
+    border-color: transparent;
 }
