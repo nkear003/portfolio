@@ -24,7 +24,7 @@
           </a>
           
           <a href="brochure.php" class="graphic">
-            <img src="images/brochure/brochureFront.png" alt="Peace by Piece">
+            <img src="images/brochure/brochureFRONT.png" alt="Peace by Piece">
           </a>
           
         </div> <!-- end left side-->
@@ -39,7 +39,7 @@
               <img src="images/innersymphony/innersymphonyFRONT.png" alt="Inner Symphony">
           </a>
           
-          <a href="phrr.php" class="graphicweb">
+          <a href="phrr.php" class="web">
             <img src="images/phrr/logo_header.png" alt="Poquoson Home Repair & Remodeling">
           </a>
 
