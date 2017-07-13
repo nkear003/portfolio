@@ -1,4 +1,4 @@
-/*// Show the loading image.
+// Show the loading image.
 $('#loader_img').fadeIn(2000);
 
 // When main image loads:
@@ -7,7 +7,7 @@ $(window).load(function() {
   $('#loader_img').fadeOut(1000, function(){
    $('#main-content').fadeIn(1000); 
   })
-});*/
+});
 
 $(window).load(function() {
     $('#main-content').fadeIn(1000);    
