@@ -21,16 +21,24 @@ $(document).ready(function() {
     function remove_active_all () {
         $('#selector li').find('a#show_all').removeClass("active");
     }
+    
+    
+    // function to check if web or graphic are active
+    
+    function checkActive () {
+        // check #show_web to see if active
         
-/*    if( $( "#show_graphic" ).hasClass( "active" ) || $( "#show_web" ).hasClass( "active" )  ) {
-        $('#selector li').find('a#show_all').removeClass("active");
-        console.log('true');
-    } else {
-        $('#selector li').find('a#show_all').addClass("active");
-        console.log('else');
+        if ($('#show_web').hasClass("active") || $('#show_graphic').hasClass("active") ) {
+            //remove active class from #show_all    
+            $('#show_all').removeClass("active");
+            console.log('#show_web or #show_graphic has active class');
+        } else {
+            $('#show_all').addClass("active");
+            console.log('neither #show_web or #show_all have active class');
+        }
     }
      
-    if( $this.is( "#show_all" ) ) {
+    /*if( $this.is( "#show_all" ) ) {
         $('#selector li').find('a#show_all').removeClass("active");
         console.log('true');
     } else {
@@ -56,6 +64,8 @@ $(document).ready(function() {
         
         $(this).toggleClass("active");
         
+        checkActive();
+        
 //        remove_active_all();
         
     });
@@ -69,6 +79,8 @@ $(document).ready(function() {
         $(this).toggleClass("active");
         
 //        remove_active_all();
+        
+        checkActive();
         
     });
     
