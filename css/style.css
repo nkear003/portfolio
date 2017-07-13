@@ -1,3 +1,82 @@
+img {
+    max-width: 100%;
+    box-shadow: 0 2px 5px 0 #000;
+    display: block;
+    margin: 3% auto 0;
+    max-height: 700px;
+    background: url(images/load.gif) center no-repeat
+}
+
+.logo {
+    box-shadow: 0 0;
+    min-width: 64px;
+    min-height: 64px;
+    margin: 0;
+    padding: 0
+}
+
+.nav {
+    font-weight: 700
+}
+
+.nav#mainnav {
+    padding: .5rem 2px;
+    margin-top: 5%;
+    border-top: 5px solid;
+    border-bottom: 5px solid
+}
+
+.hrnav {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border-bottom: 5px solid #000
+}
+
+ul#mainnav {
+    display: inline-flex
+}
+
+.hide,
+.loader,
+div#main-content {
+    display: none
+}
+
+#selector a {
+    color: #fff;
+    background-color: #000
+}
+
+#selector a:hover {
+    background-color: #00f
+}
+
+#selector .active {
+    background-color: #00f
+}
+
+@media (max-width:550px) {
+    #selector {
+        display: none
+    }
+}
+
+.footer img {
+    box-shadow: none;
+    max-height: 48px;
+    max-width: 48px
+}
+
+.loader {
+    box-shadow: 0 0;
+    position: relative;
+    top: 150px
+}
+
+/*
+ABOVE IMPORTED FROM SKELTON
+*/
+
 /*body { padding-top: 70px; }*/
 
 .load {
@@ -42,11 +121,9 @@ img a:active {
   border-bottom: solid 5px;*/
 }
 
-img .towers {
+img {
     max-height: 575px;
 }
-
-a img:hover
 
 img a:hover {
     background-color: transparent;
@@ -80,4 +157,8 @@ blockquote p {
 
 .no-show {
     border-color: transparent;
+}
+
+.show {
+    display: block;
 }
