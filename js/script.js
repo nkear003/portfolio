@@ -9,10 +9,6 @@ $(window).load(function() {
   })
 });
 
-$(window).load(function() {
-    $('#main-content').fadeIn(1000);    
-});
-
 // selector sidebar
 $(document).ready(function() {
     
