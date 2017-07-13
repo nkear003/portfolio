@@ -57,7 +57,7 @@ div#main-content {
 
 @media (max-width:550px) {
     #selector {
-        display: none
+        display: none;
     }
 }
 
@@ -87,6 +87,10 @@ a:hover {
     background-color:#000;
     color:#fff;
     cursor: pointer;
+}
+
+.jumbotron img {
+    box-shadow: none;
 }
 
 .jumbotron {
