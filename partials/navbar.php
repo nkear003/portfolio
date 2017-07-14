@@ -4,7 +4,7 @@
         |
         <a href="#" class="show_cv">CV</a>
         |
-        <a href="https://github.com/nkear003/">GitHub</a>
+        <a href="https://github.com/nkear003/" target="_blank">GitHub</a>
         |
         <a href="mailto:nick@nicholaskearney.com">Email</a>
         |   
