@@ -4,7 +4,7 @@
       <?php include 'partials/header.php'; ?>
     </head>
     <body>
-        <img src="images/logoBlue.png" id="loader_img" class="loader">
+        <img src="images/logoBlue.png" id="loader_img" class="animated fadeIn">
           <div id="main-content">
           <div class="container">
               <?php include 'partials/navbar.php'; ?>
