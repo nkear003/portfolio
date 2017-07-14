@@ -37,9 +37,12 @@ ul#mainnav {
 }
 
 .hide,
-.loader,
 div#main-content {
     display: none
+}
+
+.loader {
+    
 }
 
 #selector a {
@@ -67,8 +70,11 @@ div#main-content {
     max-width: 48px
 }
 
-.loader {
-    box-shadow: 0 0;
+#loader_img, #front_loader_img {
+    box-shadow: none;
+}
+
+#loader_img {
     position: relative;
     top: 150px
 }
@@ -81,12 +87,6 @@ ABOVE IMPORTED FROM SKELTON
 
 .load {
   background: url(images/widgets/load.gif);
-}
-
-a:hover {
-    background-color:#000;
-    color:#fff;
-    cursor: pointer;
 }
 
 .jumbotron img {
@@ -129,7 +129,7 @@ img {
     max-height: 575px;
 }
 
-img a:hover {
+div a:hover {
     background-color: transparent;
 /*    box-shadow: none !important;*/
 }
@@ -165,4 +165,9 @@ blockquote p {
 
 .show {
     display: block;
+}
+p a:hover {
+    background-color:#000;
+    color:#fff;
+    cursor: pointer;
 }
