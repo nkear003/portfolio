@@ -1,12 +1,10 @@
-// Show the loading image.
-$('#loader_img').fadeIn(2000);
-
 // When main image loads:
 $(window).load(function() {
-  // Fade out and hide the loading image.
-  $('#loader_img').fadeOut(1000, function(){
-   $('#main-content').fadeIn(1000); 
-  })
+    // Fade out and hide the loading image.
+    $('#loader_img').fadeOut(1000, function(){
+        $('#main-content').fadeIn(1000); 
+    });
+    
 });
 
 // selector sidebar
