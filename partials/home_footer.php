@@ -2,7 +2,7 @@
             <hr class="no-show">
             <div class="row">
                 <div class="offset-by-one ten columns" style="text-align:center">
-                    <a href="#" target="_top">Back to Top</a>
+                    <p><a href="#" target="_top">Back to Top</a></p>
                 </div>
             </div>
             <hr class="no-show">
