@@ -3,7 +3,11 @@
       <div class="row">        
         <div class="offset-by-one five columns">          
           
-          <a href="nicholask.php" class="graphicweb">
+          <a href="edge.php" class="web">
+            <img src="images/edge/edgeFRONT.png" alt="Steyoyoke Edge">
+          </a>
+          
+          <a href="nicholask.php" class="graphic web">
             <img src="images/nicholask/nkheader.png" alt="Nicholas K Music">
           </a>
 
@@ -31,9 +35,6 @@
         
         <div class="five columns">
           
-          <a href="edge.php" class="web">
-            <img src="images/edge/edgeFRONT.png" alt="Steyoyoke Edge">
-          </a>
           
           <a href="innersymphony.php" class="web">
               <img src="images/innersymphony/innersymphonyFRONT.png" alt="Inner Symphony">
