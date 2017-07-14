@@ -19,7 +19,7 @@
                 <img src="images/innersymphony/innersymphony-podcasts-page.png" class="" alt="Inner Symphony | Podcasts Page">
             </div>
             <div class="five columns">
-                <h2><a href="http://innersymphony.net/is001/ target="_blank"">Release Page</a></h2>
+                <h2><a href="http://innersymphony.net/is001/" target="_blank">Release Page</a></h2>
                 <img src="images/innersymphony/innersymphony-release-page.png"  alt="Inner Symphony | Release Page">
             </div>
         </div>
