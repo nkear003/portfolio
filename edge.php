@@ -1,4 +1,4 @@
-<?php include 'layouts/project.php'; ?>
+<?php include('layouts/project.php'); ?>
         
         <div class="row">
             <div class="offset-by-one ten columns">
