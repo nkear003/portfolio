@@ -50,6 +50,3 @@ local_only/footer.php
 
 # Blade #
 ######################
-
-cache/*
-vendor/*

@@ -1,4 +1,3 @@
-                </div> <!-- end page-wrap-->
             <hr class="no-show">
             <div class="row">
                 <div class="offset-by-one ten columns" style="text-align:center">

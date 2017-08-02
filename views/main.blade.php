@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @include('partials._head')
+        @include('partials._head'
     </head>
     <body>
         <img src="images/logoBlue.png" id="loader_img" class="loader animated fadeIn">
@@ -17,4 +17,3 @@
                 </div>
             </div>
             @include('partials._footer')
-        </div>
