@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>Nicholas Kearney - Digital Portfolio</title>
+<title>Nicholas Kearney @yield('title')</title>
 <meta name="description" content="">
 <meta name="author" content="Nicholas Kearney">
 
@@ -13,3 +13,7 @@
 <link rel="stylesheet" href="css/style.css">
 
 <link rel="icon" type="image/png" href="images/logoBlueTH.png">
+
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
+<script type='text/javascript' src='js/dynamicpage.js'></script>
