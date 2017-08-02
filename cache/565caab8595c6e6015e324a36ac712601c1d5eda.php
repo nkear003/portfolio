@@ -1,8 +1,6 @@
-@extends('main')
+<?php $__env->startSection('title', ' | Edge'); ?>
 
-@section('title', ' | Edge')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 <div class="row">
     <div class="offset-by-one ten columns">
         <hr class="no-show hrsmall">
@@ -36,4 +34,5 @@
         <img src="images/edge/edge-download-page.png" alt="Steyoyoke Edge | Downloads Page">
     </div>
 </div>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('main', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

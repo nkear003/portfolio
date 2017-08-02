@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @include('partials._head')
+        <?php echo $__env->make('partials._head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     </head>
     <body>
         <img src="images/logoBlue.png" id="loader_img" class="loader animated fadeIn">
         <div id="page-wrap">
-            @include('partials._selector')
+            <?php echo $__env->make('partials._selector', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
             <div class="container">
-                @include('partials._navbar')
-                @include('partials._cv')
+                <?php echo $__env->make('partials._navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                <?php echo $__env->make('partials._cv', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                 <div id="main-content" class="links">
                     <div id="guts">
-                        @yield('content')
+                        <?php echo $__env->yieldContent('content'); ?>
                     </div>
                 </div>
                 <hr class="no-show">
@@ -23,4 +23,4 @@
                 </div>
                 <hr class="no-show">
             </div> <!--end container-->
-    @include('partials._footer')
+    <?php echo $__env->make('partials._footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

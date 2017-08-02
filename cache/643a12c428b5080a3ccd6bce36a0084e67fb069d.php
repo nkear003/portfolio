@@ -1,8 +1,6 @@
-@extends('main')
+<?php $__env->startSection('title', ' | Digital Design Portfolio'); ?>
 
-@section('title', ' | Digital Design Portfolio')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <div class="row">
     <div class="offset-by-one five columns">
@@ -59,4 +57,5 @@
 </div>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('main', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

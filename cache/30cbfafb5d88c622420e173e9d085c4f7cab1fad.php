@@ -1,8 +1,4 @@
-@extends('main')
-
-@section('title', ' | Brochure')
-
-@section('content')   
+<?php $__env->startSection('content'); ?>   
 <div class="row">            
     <div class="offset-by-one ten columns">
         <h1>Peace by Piece</h1>
@@ -15,5 +11,7 @@
         <img src="images/brochure/brochureBottom.png">
     </div>
 </div>
-@endsection
+<?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('main', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

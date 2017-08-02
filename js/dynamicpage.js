@@ -6,12 +6,14 @@ $(function() {
         baseHeight   = 0,
         $el;
         
-    $pageWrap.height($pageWrap.height());
-    baseHeight = $pageWrap.height() - $mainContent.height();
+    $(document).load(function() { // wait for document to load to measure height
+        $pageWrap.height($pageWrap.height());
+        baseHeight = $pageWrap.height() - $mainContent.height();
+        console.log($mainContent.height());
+    });
     
-    $(".nav").delegate("a", "click", function() {
+    $(".container").delegate("a", "click", function() {
         window.location.hash = $(this).attr("href");
-        // console.log('something happened');
         return false;
     });
     
@@ -29,8 +31,6 @@ $(function() {
                                 height: baseHeight + $mainContent.height() + "px"
                             });
                         });
-                        // $("nav a").removeClass("current");
-                        // $("nav a[href="+newHash+"]").addClass("current");
                     });
                 });
         };
