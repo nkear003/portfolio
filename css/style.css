@@ -42,8 +42,7 @@ ul#mainnav {
     display: inline-flex
 }
 
-.hide,
-div#page-wrap {
+.hide {
     display: none
 }
 

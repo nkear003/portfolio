@@ -1,27 +1,32 @@
 // When main image loads:
-$(window).load(function() {
-    // Fade out and hide the loading image.
-    $('#loader_img').fadeOut(1000, function(){
-        $('#page-wrap').fadeIn(1000); 
-    });
-    
-});
+//$(window).load(function() {
+//    // Fade out and hide the loading image.
+//    $('#loader_img').fadeOut(1000, function(){
+//        $('#page-wrap').fadeIn(1000); 
+//    });
+//    
+//});
 
 // selector sidebar
 $(document).ready(function() {
     
+    // fade page in
+    
+    // $('#page-wrap').fadeIn(1000); 
+    
     // function to check if web or graphic are active
     
     function checkActive () {
+        
         // check #show_web to see if active
         
         if ($('#show_web').hasClass("active") || $('#show_graphic').hasClass("active") ) {
             //remove active class from #show_all    
             $('#show_all').removeClass("active");
-            console.log('#show_web or #show_graphic has active class');
+            // console.log('#show_web or #show_graphic has active class');
         } else {
             $('#show_all').addClass("active");
-            console.log('neither #show_web or #show_all have active class');
+            // console.log('neither #show_web or #show_all have active class');
         }
     }
     
