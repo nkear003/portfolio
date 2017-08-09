@@ -1,23 +1,38 @@
-// buttons object
-
-var buttons = {
-    web: '#show_web',
-    graphic: '#show_graphic',
-    all: '#show_all',
-    cv: '#show_cv'
-};
-
-// DOM classes
-
-var classes = {
-    web: '.web',
-    graphic: '.graphic',
-    all: '.graphic.web',
-    cv: '.cv'
-}
 
 // selector sidebar
 $(document).ready(function() {
+    
+    var id, plug, hide;
+
+    // buttons object
+    var buttons = {
+        web: '#web',
+        graphic: '#graphic',
+        all: '#all',
+        cv: '#cv'
+    };
+
+    // DOM classes
+
+    var classes = {
+        web: '.web',
+        graphic: '.graphic',
+        all: '.graphic.web',
+        cv: '.cv'
+    }
+    
+    $(".btn").click( function() {
+        
+        // get id of button pressed
+        id = $(this).attr("id");
+        
+        // toggle active class of btn
+        $(this).toggleClass("active");
+        
+        if(id !== 'all') { hideProjects(id); }
+
+    });
+    
     
     // function to check if web or graphic are active
     function checkActive () {
@@ -38,60 +53,36 @@ $(document).ready(function() {
         
     }
     
-    /////////////////////////
-    // show/hide functions //
-    /////////////////////////
     
-    // web development
-    
-    $(buttons.web).click( function() {
-        $(classes.graphic).toggle("fast").css("display", "block");
+    function hideProjects(id) {
+        
+        
+        //////////////////////////////////////////////////
+        // use a switch here
+        //////////////////////////////////////////////////
+        
+        if(id === 'web') {
+            hide = classes.graphic;
+        } else if(id === 'graphic') {
+            hide = classes.web;
+        }
+        
+        //////////////////////////////////////////////////
+        
+        // hide other classes
+        $(hide).toggle("fast").css("display", "block");
+
+        // hide CV
         $(classes.cv).hide("fast");
-        
-        $(this).toggleClass("active");
+
+        // remove CV active class
         $(buttons.cv).removeClass("active");
-        
+
+        // run checkActive()
         checkActive();
         
-    });
+    }
     
-    // graphic design
-    
-    $(buttons.graphic).click( function() {
-        $(classes.web).toggle("fast").css("display", "block");
-        $(classes.cv).hide("fast");
-        
-        $(this).toggleClass("active");
-        $(buttons.cv).removeClass("active");
-        
-        checkActive();
-        
-    });
-    
-    // all
-    
-    $(buttons.all).click( function() {
-        
-        // show/hide other objects
-        $(classes.web).show("fast").css("display", "block");
-        $(classes.graphic).show("fast").css("display", "block");
-        $(classes.cv).hide("fast");
-        
-        $(this).addClass("active");
-        $(buttons.web).removeClass("active");
-        $(buttons.graphic).removeClass("active");
-        $(buttons.cv).removeClass("active");
-    });
-    
-    // cv
-    
-    $(buttons.cv).click(function() {
-        
-        $(classes.cv).toggle(1/*empty wouldn't work*/).css("display", "block");
-        
-        $(this).toggleClass("active");
-        
-    });
 });
 
 $('.service').click(function(e) {
