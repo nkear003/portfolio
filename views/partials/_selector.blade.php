@@ -5,7 +5,7 @@
       <li><a href="#" id="show_web">Web Development</a></li>
       <li><a href="#" id="show_graphic">Graphic Design</a></li>
       <li><a href="#" id="show_all" class="active">All</a></li>
-      <li><a href="#" class="show_cv">CV</a></li>
+      <li><a href="#" id="show_cv">CV</a></li>
     </ul>
   </div>
 </div>

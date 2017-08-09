@@ -1,3 +1,21 @@
+// buttons object
+
+var buttons = {
+    web: '#show_web',
+    graphic: '#show_graphic',
+    all: '#show_all',
+    cv: '#show_cv'
+};
+
+// DOM classes
+
+var classes = {
+    web: '.web',
+    graphic: '.graphic',
+    all: '.graphic.web',
+    cv: '.cv'
+}
+
 // selector sidebar
 $(document).ready(function() {
     
@@ -6,15 +24,15 @@ $(document).ready(function() {
         
         // if web or graphic are active, remove active from all 
         
-        if ($('#show_web').hasClass("active") || $('#show_graphic').hasClass("active") ) {
+        if ($(buttons.web).hasClass("active") || $(buttons.graphic).hasClass("active") ) {
             //remove active class from #show_all    
-            $('#show_all').removeClass("active");
+            $(buttons.all).removeClass("active");
             // console.log('#show_web or #show_graphic has active class');
         } else {
             
         // if neither web or graphic are active, add active to all
             
-            $('#show_all').addClass("active");
+            $(buttons.all).addClass("active");
             // console.log('neither #show_web or #show_all have active class');
         }
         
@@ -26,11 +44,12 @@ $(document).ready(function() {
     
     // web development
     
-    $('#show_web').click( function() {
-        $('.graphic').toggle("fast").css("display", "block");
-        $("#cv").hide("fast");
+    $(buttons.web).click( function() {
+        $(classes.graphic).toggle("fast").css("display", "block");
+        $(classes.cv).hide("fast");
         
         $(this).toggleClass("active");
+        $(buttons.cv).removeClass("active");
         
         checkActive();
         
@@ -38,11 +57,12 @@ $(document).ready(function() {
     
     // graphic design
     
-    $('#show_graphic').click( function() {
-        $('.web').toggle("fast").css("display", "block");
-        $("#cv").hide("fast");
+    $(buttons.graphic).click( function() {
+        $(classes.web).toggle("fast").css("display", "block");
+        $(classes.cv).hide("fast");
         
         $(this).toggleClass("active");
+        $(buttons.cv).removeClass("active");
         
         checkActive();
         
@@ -50,24 +70,24 @@ $(document).ready(function() {
     
     // all
     
-    $('#show_all').click( function() {
+    $(buttons.all).click( function() {
         
         // show/hide other objects
-        $('.web').show("fast").css("display", "block");
-        $('.graphic').show("fast").css("display", "block");
-        $("#cv").hide("fast");
+        $(classes.web).show("fast").css("display", "block");
+        $(classes.graphic).show("fast").css("display", "block");
+        $(classes.cv).hide("fast");
         
         $(this).addClass("active");
-        $('#show_web').removeClass("active");
-        $('#show_graphic').removeClass("active");
-        $('.show_cv').removeClass("active");
+        $(buttons.web).removeClass("active");
+        $(buttons.graphic).removeClass("active");
+        $(buttons.cv).removeClass("active");
     });
     
     // cv
     
-    $('.show_cv').click(function() {
+    $(buttons.cv).click(function() {
         
-        $("#cv").toggle(1/*empty wouldn't work*/).css("display", "block");
+        $(classes.cv).toggle(1/*empty wouldn't work*/).css("display", "block");
         
         $(this).toggleClass("active");
         
