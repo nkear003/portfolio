@@ -1,6 +1,6 @@
 <div class="row">
     <div class="offset-by-one ten columns nav" id="mainnav">
-        <a href="home.php">Nicholas Kearney</a>
+        <a href="home.php">Home</a>    
         |
         <a href="#" class="show_cv">CV</a>
         |

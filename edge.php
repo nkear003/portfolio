@@ -10,5 +10,3 @@ $cache = __DIR__ . '/cache';
 $blade = new Blade($views, $cache);
 
 echo $blade->view()->make('pages.edge')->render();
-
-?>
