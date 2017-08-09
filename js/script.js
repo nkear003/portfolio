@@ -1,4 +1,3 @@
-
 // selector sidebar
 $(document).ready(function() {
     
@@ -12,8 +11,7 @@ $(document).ready(function() {
         cv: '#cv'
     };
 
-    // DOM classes
-
+    // DOM classes object
     var classes = {
         web: '.web',
         graphic: '.graphic',
@@ -32,8 +30,7 @@ $(document).ready(function() {
         if(id !== 'all') { hideProjects(id); }
 
     });
-    
-    
+       
     // function to check if web or graphic are active
     function checkActive () {
         
@@ -52,8 +49,7 @@ $(document).ready(function() {
         }
         
     }
-    
-    
+      
     function hideProjects(id) {
         
         
