@@ -76,14 +76,17 @@ $(document).ready(function() {
     // all
     
     $('#show_all').click( function() {
+        
+        // show/hide other objects
         $('.web').show("fast").css("display", "block");
         $('.graphic').show("fast").css("display", "block");
         $("#cv").hide("fast");
         
-//        allActive();
         $(this).addClass("active");
         $('#show_web').removeClass("active");
         $('#show_graphic').removeClass("active");
+//        $('#cv').removeClass("active");
+        $('.show_cv').removeClass("active");
     });
     
     // cv
