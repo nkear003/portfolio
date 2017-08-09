@@ -1,21 +1,8 @@
-// When main image loads:
-//$(window).load(function() {
-//    // Fade out and hide the loading image.
-//    $('#loader_img').fadeOut(1000, function(){
-//        $('#page-wrap').fadeIn(1000); 
-//    });
-//    
-//});
-
 // selector sidebar
 $(document).ready(function() {
     
-    // fade page in
-    
-    // $('#page-wrap').fadeIn(1000); 
-    
     // function to check if web or graphic are active
-    function notAllActive () {
+    function checkActive () {
         
         // if web or graphic are active, remove active from all 
         
@@ -33,16 +20,6 @@ $(document).ready(function() {
         
     }
     
-    // if all has active, remove active from web and graphic
-    function allActive() {    
-        
-        if ($('#show_all').hasClass("active") ) {
-            //remove active from web and graphic
-            $('#show_web').removeClass("active");
-            $('#show_graphic').removeClass("active");
-        }
-    }
-    
     /////////////////////////
     // show/hide functions //
     /////////////////////////
@@ -54,9 +31,8 @@ $(document).ready(function() {
         $("#cv").hide("fast");
         
         $(this).toggleClass("active");
-//        $('#show_all').toggleClass("active");
         
-        notAllActive();
+        checkActive();
         
     });
     
@@ -67,9 +43,8 @@ $(document).ready(function() {
         $("#cv").hide("fast");
         
         $(this).toggleClass("active");
-//        $('#show_all').toggleClass("active");
         
-        notAllActive();
+        checkActive();
         
     });
     
@@ -85,7 +60,6 @@ $(document).ready(function() {
         $(this).addClass("active");
         $('#show_web').removeClass("active");
         $('#show_graphic').removeClass("active");
-//        $('#cv').removeClass("active");
         $('.show_cv').removeClass("active");
     });
     
