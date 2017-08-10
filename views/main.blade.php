@@ -4,7 +4,6 @@
         @include('partials._head')
     </head>
     <body>
-<!--        <img src="images/logoBlue.png" id="loader_img" class="loader animated fadeIn">-->
         <div id="page-wrap">
             @include('partials._selector')
             <div class="container">
@@ -23,4 +22,5 @@
                 </div>
                 <hr class="no-show">
             </div> <!--end container-->
+        </div>
     @include('partials._footer')
