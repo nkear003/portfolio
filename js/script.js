@@ -1,8 +1,6 @@
 $( window ).on( "load", function() { 
 
     $('#main-content').addClass("show animated fadeIn");
-    
-    console.log('Page loaded');
 })
 
 // selector sidebar
