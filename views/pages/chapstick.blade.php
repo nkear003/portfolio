@@ -5,7 +5,7 @@
 @section('content')  
 <div class="row">
     <div class="offset-by-one ten columns">
-        <img src="images/chapstick/marylnLarge.png">
+        <img src="images/chapstick/marylnLG.png">
         <hr>
         <p>In an advertising strategy course in college, I was tasked with designing a campaign for Chapstick
         with a team of three. We were to perform all aspects of the advertising strategy:

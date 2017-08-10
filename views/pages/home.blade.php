@@ -16,7 +16,7 @@
         </a>
 
         <a href="gottwald.php" class="graphic">
-            <img src="images/gottwald/gottwald1.jpg" alt="Der Gottwald">
+            <img src="images/gottwald/gottwald1.png" alt="Der Gottwald">
         </a>
 
         <!--<a href="ecsc.php" class="graphic">
@@ -49,7 +49,7 @@
             <img src="images/phrr/logo_header.png" alt="Poquoson Home Repair & Remodeling">
         </a>
 
-        <a href="eventmarketing.php" class="graphic">
+        <a href="event-marketing.php" class="graphic">
             <img src="images/nicholask/strange2.png" alt="Event Posters & Flyers">
         </a>
 
