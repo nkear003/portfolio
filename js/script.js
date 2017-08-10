@@ -27,27 +27,36 @@ $(document).ready(function() {
         // toggle active class of btn
         $(this).toggleClass("active");
         
-        if(id !== 'all') { hideProjects(id); }
+        switch (id) {
+            case 'all':
+                showAll();
+                clearActive();
+                break;
+            case 'cv':
+                cv();
+                break;
+            case 'graphic':
+            case 'web':
+                hideProjects(id);
+//                hideAllOtherProjects(id);
+        } 
 
     });
-       
-    // function to check if web or graphic are active
-    function checkActive () {
+    
+    function cv() {
+        $(classes.cv).toggle("fast").css("display", "block");
+        $(this).toggleClass("active");
+    }
+    
+    function clearActive() {
         
-        // if web or graphic are active, remove active from all 
-        
-        if ($(buttons.web).hasClass("active") || $(buttons.graphic).hasClass("active") ) {
-            //remove active class from #show_all    
-            $(buttons.all).removeClass("active");
-            // console.log('#show_web or #show_graphic has active class');
-        } else {
-            
-        // if neither web or graphic are active, add active to all
-            
-            $(buttons.all).addClass("active");
-            // console.log('neither #show_web or #show_all have active class');
-        }
-        
+    }
+    
+    function showAll() {
+        $(classes.cv).hide("fast");
+        $(classes.graphic + ', ' + classes.web).show("fast").css("display", "block");
+        $(buttons.graphic + ', ' + buttons.web + ', ' + buttons.cv).removeClass("active");
+        checkActive();
     }
       
     function hideProjects(id) {
@@ -71,6 +80,26 @@ $(document).ready(function() {
 
         // run checkActive()
         checkActive();
+        
+    }
+    
+
+    // function to check if web or graphic are active
+    function checkActive () {
+        
+        // if web or graphic are active, remove active from all 
+        
+        if ($(buttons.web).hasClass("active") || $(buttons.graphic).hasClass("active") ) {
+            //remove active class from #show_all    
+            $(buttons.all).removeClass("active");
+            // console.log('#show_web or #show_graphic has active class');
+        } else {
+            
+        // if neither web or graphic are active, add active to all
+            
+            $(buttons.all).addClass("active");
+            // console.log('neither #show_web or #show_all have active class');
+        }
         
     }
     
