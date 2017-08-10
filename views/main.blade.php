@@ -4,6 +4,7 @@
         @include('partials._head')
     </head>
     <body>
+    @include('partials._analytics')
         <div id="page-wrap">
             @include('partials._selector')
             <div class="container">
