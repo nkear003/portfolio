@@ -1,11 +1,14 @@
-<?php include 'layouts/project.php'; ?>
-        <div class="row">
-            <div class="offset-by-one ten columns">
-                <img src="images/gottwald/gottwald_card.jpg">
-                <hr>
-                <img src="images/gottwald/gottwald1.jpg">
-                <hr>
-                <img src="images/gottwald/gottwald2.jpg">
-            </div>
-        </div>
-<?php include 'partials/footer.php'; ?>
+<?php
+
+require 'vendor/autoload.php';
+
+use Philo\Blade\Blade;
+
+$views = __DIR__ . '/views';
+$cache = __DIR__ . '/cache';
+
+$blade = new Blade($views, $cache);
+
+echo $blade->view()->make('pages.gottwald')->render();
+
+?>

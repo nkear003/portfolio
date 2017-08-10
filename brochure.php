@@ -1,16 +1,13 @@
-<?php include 'layouts/project.php'; ?>
-        <div class="row">            
-            <div class="offset-by-one ten columns">
-                <h1>Peace by Piece</h1>
-                <img src="images/brochure/brochureTop.png">             
-                <hr>
-                Piece by Peace is a center for Psychotherapy, with a
-                specialty with children and adolescents. I was commissioned
-                to redesign their brochure.
-                <hr>
-                <img src="images/brochure/brochureBottom.png">
-            </div>
-        </div>      
-    </div>
-    </div>
-<?php include 'partials/footer.php'; ?>
+<?php
+
+require 'vendor/autoload.php';
+
+use Philo\Blade\Blade;
+
+$views = __DIR__ . '/views';
+$cache = __DIR__ . '/cache';
+
+$blade = new Blade($views, $cache);
+echo $blade->view()->make('pages.brochure')->render();
+
+?>
