@@ -40,7 +40,7 @@ $(function() {
 
 });
 
-// just for home button
+// just for home button 
 $(function() {
 
     var newHash      = "",
