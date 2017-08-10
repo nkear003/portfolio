@@ -33,7 +33,7 @@ $(document).ready(function() {
                 clearActive();
                 break;
             case 'cv':
-                cv();
+                toggleCV();
                 break;
             case 'graphic':
             case 'web':
@@ -43,19 +43,18 @@ $(document).ready(function() {
 
     });
     
-    function cv() {
+    function toggleCV() {
         $(classes.cv).toggle("fast").css("display", "block");
         $(this).toggleClass("active");
     }
     
     function clearActive() {
-        
+        $(buttons.graphic + ', ' + buttons.web + ', ' + buttons.cv).removeClass("active");
     }
     
     function showAll() {
         $(classes.cv).hide("fast");
         $(classes.graphic + ', ' + classes.web).show("fast").css("display", "block");
-        $(buttons.graphic + ', ' + buttons.web + ', ' + buttons.cv).removeClass("active");
         checkActive();
     }
       
