@@ -52,18 +52,13 @@ $(document).ready(function() {
       
     function hideProjects(id) {
         
-        
-        //////////////////////////////////////////////////
-        // use a switch here
-        //////////////////////////////////////////////////
-        
-        if(id === 'web') {
-            hide = classes.graphic;
-        } else if(id === 'graphic') {
-            hide = classes.web;
+        switch (id) {
+            case 'web':
+                hide = classes.graphic;
+                break;
+            case 'graphic':
+                hide = classes.web;
         }
-        
-        //////////////////////////////////////////////////
         
         // hide other classes
         $(hide).toggle("fast").css("display", "block");
