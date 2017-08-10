@@ -5,12 +5,12 @@
     </head>
     <body>
 <!--        <img src="images/logoBlue.png" id="loader_img" class="loader animated fadeIn">-->
-        <div id="page-wrap" class="animated fadeIn">
+        <div id="page-wrap">
             @include('partials._selector')
             <div class="container">
                 @include('partials._navbar')
                 @include('partials._cv')
-                <div id="main-content" class="links">
+                <div id="main-content" class="hide">
                     <div id="guts">
                         @yield('content')
                     </div>
