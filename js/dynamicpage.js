@@ -6,10 +6,8 @@ $(function() {
         baseHeight   = 0,
         $el;
         
-    $(document).load(function() { // wait for document to load to measure height
-        $pageWrap.height($pageWrap.height());
-        baseHeight = $pageWrap.height() - $mainContent.height();
-    });
+    $pageWrap.height($pageWrap.height());
+    baseHeight = $pageWrap.height() - $mainContent.height();
     
     $("#main-content").delegate("a", "click", function() {
         window.location.hash = $(this).attr("href");
