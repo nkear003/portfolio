@@ -171,6 +171,7 @@ blockquote p {
 .show {
     display: block;
 }
+
 p a:hover {
     background-color:#000;
     color:#fff;
