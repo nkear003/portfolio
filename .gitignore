@@ -47,3 +47,7 @@ downloads/
 .brackets.json
 anki.php
 local_only/footer.php
+
+# Blade #
+######################
+cache/*
