@@ -51,3 +51,7 @@ local_only/footer.php
 # Blade #
 ######################
 cache/*
+
+# Min files #
+######################
+*.min.*
