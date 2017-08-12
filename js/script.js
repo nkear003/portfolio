@@ -88,13 +88,12 @@ $(document).ready(function() {
             
             //  remove active class from #show_all    
             $(buttons.all).removeClass("active");
-            console.log('web or graphic is active');
+            // console.log('web or graphic is active');
             
         } else if(!$(buttons.web).hasClass("active") && !$(buttons.graphic).hasClass("active")) {
             
-//            $(buttons.web + ', ' + buttons.graphic).removeClass("active");
             $(buttons.all).addClass("active");
-            console.log('neither web or graphic are active');
+            // console.log('neither web or graphic are active');
             
         }
         
