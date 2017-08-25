@@ -6,6 +6,10 @@
 
 <div class="row">
     <div class="offset-by-one five columns">
+        
+        <a href="budgety.php" class="web">
+            <img src="/images/budgety/budgety.png" alt="Budget App">
+        </a>
 
         <a href="edge.php" class="web">
             <img src="images/edge/edgeFRONT.png" alt="Steyoyoke Edge">
