@@ -1,4 +1,4 @@
-@extends('main')
+@extends('page')
 
 @section('title', ' | Poquoson Home Repair & Remodeling')
 
