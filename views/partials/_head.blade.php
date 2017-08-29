@@ -11,5 +11,6 @@
 <link rel="stylesheet" href="css/normalize.min.css">
 <link rel="stylesheet" href="css/skeleton.min.css">
 <link rel="stylesheet" href="css/style.min.css">
+@yield('css')
 
 <link rel="icon" type="image/png" href="images/logoBlueTH.png">

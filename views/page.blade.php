@@ -24,3 +24,9 @@
             </div> <!--end container-->
         </div>
     @include('partials._footer')
+@section('scripts')
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+@endsection
+@section('css')
+<link href="css/lightbox.min.css" rel="stylesheet">
+@endsection
