@@ -5,7 +5,7 @@
 @section('content')  
 <div class="row">
     <div class="offset-by-one ten columns">
-        <img src="images/ecsc/ecsc.png">
+        <img data-lightbox="" src="images/ecsc/ecsc.png">
     </div>  
 </div>
 <div class="row"> 

@@ -7,7 +7,7 @@
     <div class="offset-by-one ten columns">
         <h1 style="margin-top:10px">Budgety</h1>
         <a href="http://budgety.nicholaskearney.com" target="_blank">
-            <img src="/images/budgety/screenshot.png" alt="Budgety" style="margin-bottom:20px">
+            <img data-lightbox="" src="/images/budgety/screenshot.png" alt="Budgety" style="margin-bottom:20px">
         </a>
         <p>Budgety is a JavaScript budget app, which as I made as a practice project while learning JavaScript.</p>
         <p>You can use the app here:<a href="http://budgety.nicholaskearney.com" target="_blank"><b>http://budgety.nicholaskearney.com</b></a></p>
