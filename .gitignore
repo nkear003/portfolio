@@ -42,7 +42,6 @@ exclude.txt
 .exclude.txt
 phpinfo.php
 @*
-images/
 downloads/
 .brackets.json
 anki.php
