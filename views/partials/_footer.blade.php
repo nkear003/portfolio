@@ -2,5 +2,6 @@
 <!--    <script type='text/javascript' src="js/hashtag.min.js"></script>-->
 <!--    <script type='text/javascript' src='js/dynamicpage.min.js'></script>-->
     <script type="text/javascript" src="js/script.min.js"></script>    
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
     </body>
 </html>

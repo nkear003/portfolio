@@ -6,7 +6,7 @@
 <div class="row">
     <div class="offset-by-one ten columns">
         <hr class="no-show hrsmall">
-        <img src="images/edge/edge-logo.png" style="box-shadow:none" alt="Steyoyoke Edge Logo">
+        <a data-lightbox="logo" data-title="Steyoyoke Edge Logo" href="images/edge/edge-logo.png"><img src="images/edge/edge-logo.png" style="box-shadow:none"></a>
         <hr class="no-show hrsmall">
         <hr>
         <p><a href="https://edge.steyoyoke.com/" target="_blank"><b>Steyoyoke Edge</b></a> is a subscription-based music download service of Steyoyoke Recordings.</p>
@@ -26,14 +26,14 @@
 <div class="row">
     <div class="offset-by-one five columns">
         <h2>Login Page</h2>
-        <img src="images/edge/edge-login-page.png" alt="Steyoyoke Edge | Login Page">
+        <a data-lightbox="login" data-title="Steyoyoke Edge | Login Page" href="images/edge/full_edge-login-page.png"><img src="images/edge/edge-login-page.png"></a>
         <hr class="hrsmall no-show">
         <h2>Account Page</h2>
-        <img src="images/edge/edge-account-page.png" alt="Steyoyoke Edge | Account Page">
+        <a data-lightbox="account" data-title="Steyoyoke Edge | Account Page" href="images/edge/full_edge-account-page.png"><img src="images/edge/edge-account-page.png"></a>
     </div>
     <div class="five columns">
         <h2>Downloads Page</h2>
-        <img src="images/edge/edge-download-page.png" alt="Steyoyoke Edge | Downloads Page">
+        <a data-lightbox="downloads" data-title="Steyoyoke Edge | Downloads Page" href="images/edge/full_edge-download-page.png"><img src="images/edge/edge-download-page.png"></a>
     </div>
 </div>
 @endsection
