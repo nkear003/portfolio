@@ -51,6 +51,4 @@ local_only/footer.php
 ######################
 cache/*
 
-# Min files #
-######################
-*.min.*
+.bin/
