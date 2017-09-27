@@ -42,13 +42,11 @@ exclude.txt
 .exclude.txt
 phpinfo.php
 @*
-downloads/
 .brackets.json
 anki.php
-local_only/footer.php
+local_only/*
+.bin/
 
 # Blade #
 ######################
 cache/*
-
-.bin/
