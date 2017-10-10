@@ -6,7 +6,7 @@
 
 <div class="row">
     <div class="offset-by-one five columns">
-        
+
         <a href="budgety.php" class="web">
             <img src="/images/budgety/budgety.png" alt="Budget App">
         </a>
@@ -15,7 +15,7 @@
             <img src="images/edge/edgeFRONT.png" alt="Steyoyoke Edge">
         </a>
 
-        <a href="nicholask.php" class="graphic web">
+        <a href="nicholask.php" class="web">
             <img src="images/nicholask/nkheader.png" alt="Nicholas K Music">
         </a>
 
