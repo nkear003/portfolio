@@ -15,7 +15,7 @@
             <img src="images/edge/edgeFRONT.png" alt="Steyoyoke Edge">
         </a>
 
-        <a href="nicholask.php" class="web graphic">
+        <a href="nicholask.php">
             <img src="images/nicholask/nkheader.png" alt="Nicholas K Music">
         </a>
 
